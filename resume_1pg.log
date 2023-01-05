@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex"
-(c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex
+**"c:/Users/shubh/OneDrive/Desktop/Final resume/resume_1pg.tex"
+(c:/Users/shubh/OneDrive/Desktop/Final resume/resume_1pg.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-14> (c:/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -318,8 +318,8 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box59
-) (./resume_2pg.aux)
-\openout1 = `resume_2pg.aux'.
+) (./resume_1pg.aux)
+\openout1 = `resume_1pg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -361,7 +361,7 @@ LaTeX Font Info:    ... okay on input line 22.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
+* \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -412,44 +412,34 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 Package hyperref Info: Link coloring OFF on input line 22.
- (./resume_2pg.out) (./resume_2pg.out)
+ (./resume_1pg.out) (./resume_1pg.out)
 \@outlinefile=\write3
-\openout3 = `resume_2pg.out'.
+\openout3 = `resume_1pg.out'.
 
- [1
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.24077pt too wide) in paragraph at lines 176--184
+Overfull \hbox (1.24077pt too wide) in paragraph at lines 124--135
 []  
  []
 
+[1
 
-Overfull \hbox (1.24059pt too wide) in paragraph at lines 189--202
-[]  
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.216 \end{document}
-                     [2] (./resume_2pg.aux)
-Package rerunfilecheck Info: File `resume_2pg.out' has not changed.
+{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resume_1pg.aux)
+Package rerunfilecheck Info: File `resume_1pg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12732 strings out of 478023
- 200442 string characters out of 5842667
- 576466 words of memory out of 5000000
- 30948 multiletter control sequences out of 15000+600000
- 475539 words of font info for 86 fonts, out of 8000000 for 9000
+ 12700 strings out of 478023
+ 200182 string characters out of 5842667
+ 585454 words of memory out of 5000000
+ 30945 multiletter control sequences out of 15000+600000
+ 474472 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,1054b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,77p,1054b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_2pg.pdf (2 pages, 144271 bytes).
+Output written on resume_1pg.pdf (1 page, 131503 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
- 24577 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22529 words of extra memory for PDF output out of 24883 (max. 10000000)
 
