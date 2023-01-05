@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,13 +430,13 @@ Package rerunfilecheck Info: File `resume_1pg.out' has not changed.
 Here is how much of TeX's memory you used:
  12700 strings out of 478023
  200182 string characters out of 5842667
- 585454 words of memory out of 5000000
+ 583454 words of memory out of 5000000
  30945 multiletter control sequences out of 15000+600000
  474472 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,1054b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_1pg.pdf (1 page, 131503 bytes).
+Output written on resume_1pg.pdf (1 page, 130413 bytes).
 PDF statistics:
  58 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
