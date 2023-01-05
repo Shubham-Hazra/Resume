@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.16)  5 JAN 2023 20:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,7 +419,7 @@ Package hyperref Info: Link coloring OFF on input line 22.
  [1
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (18.9354pt too wide) in paragraph at lines 168--174
+Overfull \hbox (18.9354pt too wide) in paragraph at lines 169--177
 []
  []
 
@@ -427,26 +427,26 @@ Overfull \hbox (18.9354pt too wide) in paragraph at lines 168--174
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.190 \begin{flushright}
-                         [2]
+l.177 
+       [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \end{document}
+l.210 \end{document}
                      [3] (./resume_2pg.aux)
 Package rerunfilecheck Info: File `resume_2pg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12724 strings out of 478023
- 200382 string characters out of 5842667
- 575466 words of memory out of 5000000
+ 12748 strings out of 478023
+ 200568 string characters out of 5842667
+ 576466 words of memory out of 5000000
  30948 multiletter control sequences out of 15000+600000
- 475299 words of font info for 82 fonts, out of 8000000 for 9000
+ 475965 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,77p,1054b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,77p,1054b,589s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_2pg.pdf (3 pages, 143665 bytes).
+Output written on resume_2pg.pdf (3 pages, 147514 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
