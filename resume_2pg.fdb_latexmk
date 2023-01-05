@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1672934699 "c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex" "resume_2pg.pdf" "resume_2pg" 1672934701
-  "c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex" 1672934699 17138 7b29272f38863e868a2846f6b01bc7bf ""
+["pdflatex"] 1672936662 "c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex" "resume_2pg.pdf" "resume_2pg" 1672936665
+  "c:/Users/shubh/OneDrive/Desktop/Final resume/resume_2pg.tex" 1672936662 17138 198a875ab18f3aba4c050147e0808e04 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1657958283 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1657951016 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1657954377 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -86,9 +86,9 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1657973627 4634946 d2848b86361d48ab78eef9225f65482b ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1657973907 2864705 2b7fa6247436280b993d33b1b24ad0f5 ""
   "c:/texlive/2022/texmf.cnf" 1657973578 713 e69b156964470283e0530f5060668171 ""
-  "resume_2pg.aux" 1672934701 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
+  "resume_2pg.aux" 1672936665 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
   "resume_2pg.out" 0 -1 0 "pdflatex"
-  "resume_2pg.tex" 1672934699 17138 7b29272f38863e868a2846f6b01bc7bf ""
+  "resume_2pg.tex" 1672936662 17138 198a875ab18f3aba4c050147e0808e04 ""
   (generated)
   "resume_2pg.aux"
   "resume_2pg.log"
