@@ -19,12 +19,12 @@
 \renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
 \renewcommand{\labelitemii}{$\cdot$}
 \pagenumbering{gobble}
-
+\definecolor{mycolor}{RGB}{51, 102, 204}
 \begin{document}
 \vspace*{56.28 mm}
 \noindent Pursuing a \textbf{Minor} degree in \textbf{Artificial Intelligence} and \textbf{Data Science} from \textbf{C-MInDS, IIT Bombay}
 \vspace{-15pt}
-\noindent\section*{{\color{black!20!blue}\LARGE Scholastic Achievements\xfilll[0pt]{0.5pt}}}
+\noindent\section*{{\color{mycolor}\LARGE Scholastic Achievements\xfilll[0pt]{0.5pt}}}
 \vspace{-10pt}
 
 \begin{itemize}[itemsep = -0.9 mm, leftmargin=*]
@@ -37,7 +37,7 @@
 
 \end{itemize}
 \vspace{-20pt}
-\noindent\section*{{\color{black!20!blue}\LARGE Work Experience\xfilll[0pt]{0.5pt}}}
+\noindent\section*{{\color{mycolor}\LARGE Work Experience\xfilll[0pt]{0.5pt}}}
 \vspace{-10pt}
 \noindent\textbf{\large Applied AI Researcher at Brance Technologies}\hfill{\sl \small (Summer 2023)}\\
 \vspace{-15pt}
@@ -47,7 +47,7 @@
     \item Used \textbf{bash} scripts to simulate common messaging patterns and calculate \textbf{throughput} and \textbf{latency} of the system
 \end{itemize}
 \vspace{-20pt}
-\noindent\section*{\color{black!20!blue}\LARGE Key Projects\xfilll[0pt]{0.5pt}}
+\noindent\section*{\color{mycolor}\LARGE Key Projects\xfilll[0pt]{0.5pt}}
 \vspace{-10pt}
 \noindent\textbf{\large Stable Diffusion from Scratch}\hfill{\sl \small (Summer 2023)}\\
 {\it Self Project}
@@ -60,7 +60,7 @@
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-15pt}
-\noindent\textbf{\large Blockchain Simulator}\hfill{\sl \small (Summer 2023)}\\
+\noindent\textbf{\large Discrete Event Simulator for Bitcoin Network}\hfill{\sl \small (Summer 2023)}\\
 {\it Self Project}
 \\\vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
@@ -81,6 +81,17 @@
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-15pt}
+\noindent\textbf{\large KYC-Website}\hfill{\sl \small (Summer 2023)}\\
+{\it Self Project}
+\\\vspace{-15pt}
+\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+    \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
+    \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
+    \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
+    \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
+\end{itemize}
+\vspace{\baselineskip}
+\vspace{-15pt}
 \noindent\textbf{\large Deep Learning}\hfill{\sl \small (Autumn 2022)}\\
 {\it Self Project}
 \\\vspace{-15pt}
@@ -90,19 +101,8 @@
     \item Successfully implemented \textbf{transfer learning} to train a \textbf{pretrained MobileNetV2} to classify images of \textbf{alpacas} and used \textbf{data augmentation} like random rotation and flipping resulting in a highly accurate model
     \item Implemented \textbf{ResNet50's architecture} from scratch using \textbf{Keras Functional API} and trained it on a hand sign dataset to classify images of 6 different classes. Compared its performance to a \textbf{pretrained ResNet50 model}
 \end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Generating Representative Images from a Sample} \hfill{\sl \small (Autumn 2022)}\\
-{\it Guide: Prof. Suyash Awate} $|$ {\it Ongoing Course Project : Data Analysis and Interpretation } \hfill{\it IIT Bombay}
-\vspace{-3pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{MATLAB} to implement a Monte Carlo simulation of a given distribution and plotted the PDF and CDF
-    \item Used \textbf{MATLAB} to use a data set of images of various fruits and sampled random images to generate new
-          representative fruit images using \textbf{Principal Component Analysis (PCA)}. Also used PCA to analyse images of handwritten digits from the \textbf{MNIST Database} and optimally \textbf{reduce the
-              dimensionality} and \textbf{reconstruct} the images
-\end{itemize}
 \vspace{-20pt}
-\noindent\section*{\color{black!20!blue}\LARGE Other Projects\xfilll[0pt]{0.5pt}}
+\noindent\section*{\color{mycolor}\LARGE Other Projects\xfilll[0pt]{0.5pt}}
 % \pagebreak
 \vspace{\baselineskip}
 \vspace{-20pt}
@@ -126,17 +126,6 @@
     \item Stored trains as a dictionary using \textbf{Hash Tables} and devised algorithms for fastest possible journies
     \item Used \textbf{BSTs and then AVL trees} for quick searching using the journey codes and used \textbf{Tries} to implement the autocompletion feature while searching for station names and added a feature to accept reviews for journies
     \item Used \textbf{Quicksort} to order trains by day and time, implemented the \textbf{KMP-string matching algorithm} for allowing review searches by using keywords and implemented \textbf{Heaps} to allow filtering the reviews by their rating
-\end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large KYC-Website}\hfill{\sl \small (Summer 2023)}\\
-{\it Self Project}
-\\\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
-    \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
-    \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
-    \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-15pt}
@@ -168,7 +157,7 @@
 % \end{itemize}
 
 \vspace{-15pt}
-\noindent\section*{\color{black!20!blue}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
+\noindent\section*{\color{mycolor}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
 \vspace{-9pt}
 \noindent\begin{tabular}{p{4.5cm} p{12.8cm}}
     \textbf{Programming}                        & C/C++, Python, Bash, Solidity, Java, JavaScript, VHDL, Sed, Awk     \vspace{2pt}                                     \\
@@ -184,7 +173,7 @@
 
 %\vspace{-17pt}
 
-\noindent\section*{\color{black!20!blue}\LARGE Key Courses Undertaken\xfilll[0pt]{0.5pt}}
+\noindent\section*{\color{mycolor}\LARGE Key Courses Undertaken\xfilll[0pt]{0.5pt}}
 \vspace{-8pt}
 \noindent\begin{tabular}{m{36mm} m{13.7cm}}
     \textbf{Mathematics}  \vspace{2pt}                   & Calculus, Linear Algebra, Discrete Structures, Differential Equations, Optimization Models, Logic for Computer Science, Game Theory and Decision Analysis      \vspace{2pt}                                                                                \\
@@ -202,42 +191,43 @@
     \sl \small (\# Theory + Lab) \\
 \end{flushright}
 \vspace{-15pt}
-\noindent\section*{\color{black!20!blue}\LARGE Extracurricular\xfilll[0pt]{0.5pt}}
+\noindent\section*{\color{mycolor}\LARGE Extracurricular\xfilll[0pt]{0.5pt}}
 \vspace{-7pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
     \item Successfully completed one year under \textbf{National Sports Organization(NSO)} in \textbf{Chess} at IIT Bombay\hfill{\sl \small (2022)}
     \item Pitched a \textbf{Business Model Canvas} for a startup in the health sector which entailed making online ambulance
           bookings, for the EnB Buzz competition conducted by the \textbf{Entrepreneurship cell of IIT Bombay}\hfill{\sl \small (2021)}
     \item Worked in a team of 4 to make an ESP32 \textbf{WiFi-controlled} bot for XLR8 conducted by \textbf{ERC, IITB}\hfill{\sl \small (2022)}
+    \item Mentored ... (SoC)
 
 \end{itemize}
 \end{document}
 
 
 
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Human Pose Estimation}\hfill{\sl \small (Summer 2023)}\\
-{\it Self Project}
-\\\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
-    \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
-    \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
-    \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
-\end{itemize}
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Human Pose Estimation}\hfill{\sl \small (Summer 2023)}\\
+% {\it Self Project}
+% \\\vspace{-15pt}
+% \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+%     \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
+%     \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
+%     \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
+%     \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
+% \end{itemize}
 
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Cycle-GANs}\hfill{\sl \small (Summer 2023)}\\
-{\it Self Project}
-\\\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
-    \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
-    \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
-    \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
-\end{itemize}
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Cycle-GANs}\hfill{\sl \small (Summer 2023)}\\
+% {\it Self Project}
+% \\\vspace{-15pt}
+% \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+%     \item Used \textbf{Pygame} and \textbf{OpenAI's Gym} to train a lunar lander game \textbf{Deep Q-Learning with Experience Replay}. Used the \textbf{Sequential API} of the Keras library to define the \textbf{Q-network} and the \textbf{target Q-network}
+%     \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
+%     \item Utilized a \textbf{deque} for storing the experience buffer and used \textbf{experience replay} and \textbf{soft update} of the Q targets to stabilize the learning process and improve the model's convergence towards an optimal solution
+%     \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
+% \end{itemize}
 
 
 
@@ -297,4 +287,16 @@
 %     \item Made a personal website to be hosted on the CSE department server using \textbf{HTML and CSS and JavaScript}
 %     \item Added various advanced \textbf{CSS} features animations, transitions, static scroll images, modals, checkboxes and slideshows
 %     \item Used \textbf{JavaScript} to make the website interactive, gauge user-choices and render web-pages accordingly and deployed the website on an SSH server; used \textbf{BootStrap} to impelement standard navigation bars, footers and other features
+% \end{itemize}
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Generating Representative Images from a Sample} \hfill{\sl \small (Autumn 2022)}\\
+% {\it Guide: Prof. Suyash Awate} $|$ {\it Ongoing Course Project : Data Analysis and Interpretation } \hfill{\it IIT Bombay}
+% \vspace{-3pt}
+% \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+%     \item Used \textbf{MATLAB} to implement a Monte Carlo simulation of a given distribution and plotted the PDF and CDF
+%     \item Used \textbf{MATLAB} to use a data set of images of various fruits and sampled random images to generate new
+%           representative fruit images using \textbf{Principal Component Analysis (PCA)}. Also used PCA to analyse images of handwritten digits from the \textbf{MNIST Database} and optimally \textbf{reduce the
+%               dimensionality} and \textbf{reconstruct} the images
 % \end{itemize}
