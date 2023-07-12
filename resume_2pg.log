@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  12 JUL 2023 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  12 JUL 2023 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -468,15 +468,15 @@ Package rerunfilecheck Info: File `resume_2pg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12876 strings out of 476047
- 202442 string characters out of 5790253
+ 12860 strings out of 476047
+ 202326 string characters out of 5790253
  1875248 words of memory out of 5000000
  33046 multiletter control sequences out of 15000+600000
- 519001 words of font info for 103 fonts, out of 8000000 for 9000
+ 518557 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,76p,1036b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_2pg.pdf (2 pages, 146215 bytes).
+Output written on resume_2pg.pdf (2 pages, 145997 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
