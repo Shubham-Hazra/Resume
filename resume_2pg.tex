@@ -43,7 +43,8 @@
 \vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
     \item Developed and implemented performant chatbot systems using \textbf{vector embeddings} for data retrieval and \textbf{Large Language Models} for question-answering, resulting in significantly improved user experience and engagement
-    \item Utilized \textbf{Haystack} framework and \textbf{FAISS} to efficiently index and store proprietary data, leveraging \textbf{vectorDBs} to store the embeddings. Utilized \textbf{Hugging Face models} to form the entire \textbf{retrieval pipeline}, including \textbf{document reranking}, resulting in improved relevance and accuracy of the retrieved information for chatbot responses
+    \item Utilized \textbf{Haystack} framework and \textbf{FAISS} to efficiently index and store proprietary data, leveraging \textbf{vectorDBs} to store the embeddings. Utilized \textbf{Hugging Face models} to form the entire \textbf{indexing and retrieval pipeline} 
+    \item Included \textbf{document reranking} resulting in improved relevance and accuracy of the retrieved information for chatbot 
     \item Implemented \textbf{Locality-Sensitive Hashing (LSH)} to create a highly \textbf{performant caching system} to cache user queries that utilizes \textbf{semantic search}, optimizing the speed, accuracy, and efficiency of data retrieval for chatbot
     \item Leveraged \textbf{Nginx} and \textbf{FastAPI} on an \textbf{AWS EC2} instance to ensure seamless communication, and reduced latency for the chatbot system. Utilized \textbf{async calls} and FastAPI's scalability for smooth data retrieval and processing
 \end{itemize}
@@ -56,8 +57,10 @@
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
     \item Used \textbf{PyTorch} to independently develop and implement \textbf{each component} of a Stable Diffusion model on smaller datasets before using the Hugging Face's \textbf{diffuser library} to implement the final diffusion model on a larger dataset
     \item Implemented a \textbf{Variational Autoencoder (VAE)} and trained it on the Fashion MNIST dataset using \textbf{reconstruction loss} and \textbf{KL-Divergence loss}, enabling accurate reconstruction of inputs and latent space interpolation
-    \item Implemented a \textbf{Diffusion U-Net} architecture with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM} (Denoising Diffusion Probabilistic Models) on the CIFAR-10 dataset. Also used \textbf{various sampling techniques} to improve the quality and speed of the generated images
-    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a \textbf{DDPM} on these latents using the LSUN churches and bedrooms datasets to generate high-quality images. Used \textbf{FID} (Fréchet Inception Distance) scores to evaluate the quality of the generated images
+    \item Implemented a \textbf{Diffusion U-Net} with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM} (Denoising Diffusion Probabilistic Models) on MNIST and CIFAR-10 datasets 
+    \item Used various scheduling techniques like \textbf{DDIM}, \textbf{LMSDiscrete} and \textbf{PNDM} etc. to improve speed of the generations
+    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a \textbf{DDPM} on these latents using the LSUN churches datasets to generate high-quality images
+    \item Used various metrics like \textbf{FID} (Fréchet Inception Distance) scores to evaluate the quality of the generated images
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-15pt}
@@ -65,7 +68,8 @@
 {\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
 \vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Implemented a DES for the Bitcoin Network and \textbf{analyzed the forking} and length of the main chain. Additionally, simulated \textbf{selfish mining} and \textbf{stubborn mining} attacks on the network by an adversary node and analyzed the \textbf{adversary's relative profitability} under various factors such as hashing power, number of nodes and latency etc.
+    \item Implemented a discrete event simulator for the Bitcoin Network and \textbf{analyzed the forking} and length of the main chain. Additionally, simulated \textbf{selfish mining} and \textbf{stubborn mining} attacks on the network by an adversary node 
+    \item Analyzed the \textbf{adversary's relative profitability} under various factors like hashing power and network latency etc.
     \item Utilized the \textbf{Networkx library} to create a connected \textbf{P2P network} and generated visual representations of the blockchain. Used the \textbf{SimPy library} to maintain a \textbf{global clock} and simulate the \textbf{mining and transaction events}
 \end{itemize}
 \vspace{\baselineskip}
@@ -74,7 +78,8 @@
 {\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
 \vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Developed a Layer 2 DAPP on the \textbf{Ethereum blockchain}, utilizing \textbf{Ganache and Truffle} to set up a local Ethereum node. Implemented the smart contract in \textbf{Solidity}, enabling the execution of transactions within the Layer 2 DAPP and facilitate the simulation of \textbf{Lightning Networks}, a Layer 2 scaling solution for the Ethereum blockchain
+    \item Developed a Layer 2 DAPP on the \textbf{Ethereum blockchain}, utilizing \textbf{Ganache and Truffle} to set up a local Ethereum node. Implemented the smart contract in \textbf{Solidity}, enabling the execution of transactions within the Layer 2 DAPP.
+    \item Developed a simulation model of \textbf{Lightning Networks}, a Layer 2 scaling solution for the Ethereum blockchain
     \item Ran the simulation using an external Python script to perform various transaction scenarios and analyze their outcomes
 \end{itemize}
 
