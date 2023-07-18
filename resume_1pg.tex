@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[a4paper,10pt]{article}
 \usepackage[a4paper,bottom = 6.4 mm,left = 14.11 mm,right = 14.11 mm,top = 14.11 mm]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -19,13 +19,15 @@
 \renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
 \renewcommand{\labelitemii}{$\cdot$}
 \pagenumbering{gobble}
+\definecolor{mycolor}{RGB}{51, 102, 204}
+\setlength{\parindent}{0pt}
 \begin{document}
 
 
 \vspace*{35 mm}
 \noindent Pursuing a \textbf{Minor} degree in \textbf{ Artificial Intelligence} and \textbf{Data Science} from \textbf{C-MInDS, IIT Bombay}
 \vspace{-15pt}
-\noindent\section*{{\color{black!20!blue}\LARGE Scholastic Achievements}\xfilll[0pt]{0.5pt}}
+\noindent\section*{{\color{mycolor}\LARGE Scholastic Achievements}\xfilll[0pt]{0.5pt}}
 \vspace{-12pt}
 
 \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
@@ -33,13 +35,53 @@
     \item  Secured {\bf All India Rank 1207} in {\bf JEE-Advanced} out of over 0.14 million candidates\hfill{\sl \small (2021)}
     \item Secured \textbf{AP grade} for excellent performance in \textbf{PH 108-Basics of Electricity \& Magnetism}\hfill{\sl \small (2022)}
     \item Secured a \textbf{Branch Change} to \textbf{Computer Science} department on the basis of academic performance\hfill{\sl \small (2022)}
-    \item \textbf{Awarded fellowship} in the prestigious \textbf{KVPY (Kishore Vaigyanik Protsahan Yojna)} SX\hfill{\sl \small (2021)}
+    \item Secured {\bf AIR 275} in the prestigious \textbf{KVPY SX} and awarded fellowship by \textbf{IISC Bangalore}\hfill{\sl \small (2021)}
 
 
 \end{itemize}
+
 \vspace{-20pt}
-\noindent\section*{\color{black!20!blue}\LARGE Key Projects\xfilll[0pt]{0.5pt}}
-\vspace{-12pt}
+\noindent\section*{{\color{mycolor}\LARGE Work Experience\xfilll[0pt]{0.5pt}}}
+\vspace{-10pt}
+\noindent\textbf{\large Applied AI Researcher at Brance Technologies}\hfill{\sl \small (Summer 2023)}\\
+\vspace{-15pt}
+\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+    \item Developed and implemented performant chatbot systems using \textbf{vector embeddings} for data retrieval and \textbf{Large Language Models} for question-answering, resulting in significantly improved user experience and engagement
+    \item Utilized \textbf{Haystack} framework and \textbf{FAISS} to efficiently index and store proprietary data, leveraging \textbf{vectorDBs} to store the embeddings. Utilized \textbf{Hugging Face models} to form the entire \textbf{indexing and retrieval pipeline} 
+    \item Included \textbf{document reranking} resulting in improved relevance and accuracy of the retrieved information for chatbot 
+    \item Implemented \textbf{Locality-Sensitive Hashing (LSH)} to create a highly \textbf{performant caching system} to cache user queries that utilizes \textbf{semantic search}, optimizing the speed, accuracy, and efficiency of data retrieval for chatbot
+    \item Leveraged \textbf{Nginx} and \textbf{FastAPI} on an \textbf{AWS EC2} instance to ensure seamless communication, and reduced latency for the chatbot system. Utilized \textbf{async calls} and FastAPI's scalability for smooth data retrieval and processing
+\end{itemize}
+
+\vspace{-20pt}
+\noindent\section*{\color{mycolor}\LARGE Key Projects\xfilll[0pt]{0.5pt}}
+
+\vspace{-10pt}
+\noindent\textbf{\large Stable Diffusion from Scratch}\hfill{\sl \small (Summer 2023)}\\
+{\it Self Project}
+\\\vspace{-15pt}
+\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+    \item Used \textbf{PyTorch} to independently develop and implement \textbf{each component} of a Stable Diffusion model on smaller datasets before using the Hugging Face's \textbf{diffuser library} to implement the final diffusion model on a larger dataset
+    \item Implemented a \textbf{Variational Autoencoder (VAE)} and trained it on the Fashion MNIST dataset using \textbf{reconstruction loss} and \textbf{KL-Divergence loss}, enabling accurate reconstruction of inputs and latent space interpolation
+    \item Implemented a \textbf{Diffusion U-Net} with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM} (Denoising Diffusion Probabilistic Models) on MNIST and CIFAR-10 datasets 
+    \item Used various scheduling techniques like \textbf{DDIM}, \textbf{LMSDiscrete} and \textbf{PNDM} etc. to improve speed of the generations
+    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a \textbf{DDPM} on these latents using the LSUN churches datasets to generate high-quality images
+    \item Used various metrics like \textbf{FID} (Fréchet Inception Distance) scores to evaluate the quality of the generated images
+\end{itemize}
+
+\vspace{\baselineskip}
+\vspace{-15pt}
+\noindent\textbf{\large Discrete Event Simulator for Bitcoin Network}\hfill{\sl \small (Spring 2023)}\\
+{\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
+\vspace{-17pt}
+\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+    \item Implemented a discrete event simulator for the Bitcoin Network and \textbf{analyzed the forking} and length of the main chain. Additionally, simulated \textbf{selfish mining} and \textbf{stubborn mining} attacks on the network by an adversary node 
+    \item Analyzed the \textbf{adversary's relative profitability} under various factors like hashing power and network latency etc.
+    \item Utilized the \textbf{Networkx library} to create a connected \textbf{P2P network} and generated visual representations of the blockchain. Used the \textbf{SimPy library} to maintain a \textbf{global clock} and simulate the \textbf{mining and transaction events}
+\end{itemize}
+
+\vspace{\baselineskip}
+\vspace{-15pt}
 \noindent\textbf{\large FastChat} \hfill{\sl \small Autumn 2022}\\
 {\it Guide: Prof. Kavi Arya} $|$ {\it Ongoing Course Project : Software Systems Lab } \hfill{\it IIT Bombay}\\
 \vspace{-17pt}
@@ -48,37 +90,8 @@
     \item Implementing a \textbf{load balancer} with \textbf{least connect strategy} using \textbf{bash} to distribute load among multiple servers. Focusing on obtaining \textbf{high throughput} while using only \textbf{limited resources} dedicated for the servers
     \item Used \textbf{bash} scripts to simulate common messaging patterns and calculate \textbf{throughput} and \textbf{latency} of the system
 \end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Lunar Lander using Deep Reinforcement Learning}\hfill{\sl \small Autumn 2022}\\
-{\it Self Project}
-\\\vspace{-17pt}
-\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Implemented a \textbf{Deep Q learning} algorithm with \textbf{experience replay} using \textbf{TensorFlow} to train a lunar lander
-    \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
-    \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
-\end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Deep Learning and Neural Networks}\hfill{\sl \small Autumn 2022}\\
-{\it Self Project}
-\\\vspace{-17pt}
-\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Made a \textbf{CNN} to classify images of handwritten digits using MNIST dataset and \textbf{TensorFlow, Keras and PyTorch} and compared their performance. Also made a \textbf{GUI} to draw digits using \textbf{python Tkinter} and classify them
-    \item Made many different types of \textbf{CNNs} to classify various types of data such as \textbf{Traffic signs recogninition, Crack detection, Smile detection, Hand sign recogninition} using \textbf{PyTorch} and \textbf{Keras Sequential API}
-    \item Successfully implemented \textbf{transfer learning} to train a \textbf{pretrained MobileNetV2} to classify images of \textbf{alpacas}
-    \item Implemented \textbf{ResNet50's architecture} from scratch using \textbf{Keras API} and trained it on a hand sign dataset
-\end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Machine Learning}\hfill{\sl \small Autumn 2022}\\
-{\it Self Project}
-\\\vspace{-17pt}
-\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Learnt about the various machine learning algorithms such as \textbf{linear and logistic regressions, clustering using K-means, K-nearest neighbors and decision trees} and implemented them from scratch using numpy and pandas
-    \item Proficiency in using \textbf{cross-validation and hyperparameter tuning} to optimize machine learning models
-    \item Used \textbf{scikit-learn and XGBClassifer and XGBRegressor} to implement various types of classifiers and regressors to predict and classify various types of data such as \textbf{classifying flower species and predicting house prices}
-\end{itemize}
+
+
 \vspace{\baselineskip}
 \vspace{-15pt}
 \noindent\textbf{\large Rail Planner}\hfill{\sl \small Autumn 2022}\\
@@ -88,6 +101,99 @@
     \item Developing a railway planner using algorithms such as \textbf{Merge Sort, KMP, Quicksort}, etc.
     \item Utilising Data Structures such as \textbf{linked lists, Binary Search Trees, AVL Trees, Hash tables, Tries}, etc.
 \end{itemize}
+
+
+\vspace{-20pt}
+\noindent\section*{\color{mycolor}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
+\vspace{-12pt}
+\noindent\begin{tabular}{p{4.5cm} p{12.8cm}}
+    \textbf{Programming}                        & C/C++, Python, Bash, Solidity, Java, JavaScript, VHDL, Sed, Awk                                    \\
+    \vspace{-7pt} \textbf{Data Science} & \vspace{-7pt} Tensorflow, Pytorch, Keras, Trax, Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib  \\
+    \vspace{-7pt} \textbf{Software \& Tools} & \vspace{-7pt} MATLAB, Git, \LaTeX{}, Docker, Wireshark, Z3, Doxygen, Sphinx, Ngingx, FastAPI  \\
+     \vspace{-7pt} \textbf{Web Development}   &  \vspace{-7pt} HTML5, CSS, JavaScript, BootStrap, jQuery NodeJS, ExpressJS, SQL, MongoDB                                      \\
+    % \hline
+\end{tabular}
+
+\vspace{-17pt}
+\noindent\section*{\color{mycolor}\LARGE Extracurricular\xfilll[0pt]{0.5pt}}
+\vspace{-12pt}
+\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+    \item Mentored two groups of students during the \textbf{SoC (Summer of Code)} program conducted by \textbf{WNCC, IITB} \hfill{\sl \small (2023)}
+    \item Successfully completed one year under \textbf{National Sports Organization(NSO)} in \textbf{Chess} at IIT Bombay\hfill{\sl \small (2022)}
+    \item Pitched a \textbf{Business Model Canvas} for a startup in the health sector which entailed making online\\ ambulance
+          bookings, for the EnB Buzz contest conducted by the \textbf{Entrepreneurship cell of IIT Bombay}\hfill{\sl \small (2021)}
+    \item Participated in a team of 3 and wrote a working script and successful submission in \textbf{Google Hashcode}\hfill{\sl \small (2021)}
+    \item Worked as team of 4 to make a remote controlled bot using ESP32 for XLR8 - an event of \textbf{ERC, IITB}\hfill{\sl \small (2022)}
+
+\end{itemize}
+\end{document}
+
+
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Machine Learning}\hfill{\sl \small Autumn 2022}\\
+% {\it Self Project}
+% \\\vspace{-17pt}
+% \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+%     \item Learnt about the various machine learning algorithms such as \textbf{linear and logistic regressions, clustering using K-means, K-nearest neighbors and decision trees} and implemented them from scratch using numpy and pandas
+%     \item Proficiency in using \textbf{cross-validation and hyperparameter tuning} to optimize machine learning models
+%     \item Used \textbf{scikit-learn and XGBClassifer and XGBRegressor} to implement various types of classifiers and regressors to predict and classify various types of data such as \textbf{classifying flower species and predicting house prices}
+% \end{itemize}
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Lunar Lander using Deep Reinforcement Learning}\hfill{\sl \small Autumn 2022}\\
+% {\it Self Project}
+% \\\vspace{-17pt}
+% \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+%     \item Implemented a \textbf{Deep Q learning} algorithm with \textbf{experience replay} using \textbf{TensorFlow} to train a lunar lander
+%     \item Used \textbf{Tensorflow Core} to define a \textbf{custom loss function} and a \textbf{custom training loop} using \textbf{GradientTape} to train the model. Used \textbf{epsilon greedy policy} to select the action with some amount of random decisions
+%     \item \textbf{Tuned and optimized model hyperparameters}, including learning rate, batch size, and number of episodes, epilon, gamma, number of timesteps to achieve the best results and solved the environment within 500 episodes
+% \end{itemize}
+
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Deep Learning and Neural Networks}\hfill{\sl \small Autumn 2022}\\
+% {\it Self Project}
+% \\\vspace{-17pt}
+% \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+%     \item Made a \textbf{CNN} to classify images of handwritten digits using MNIST dataset and \textbf{TensorFlow, Keras and PyTorch} and compared their performance. Also made a \textbf{GUI} to draw digits using \textbf{python Tkinter} and classify them
+%     \item Made many different types of \textbf{CNNs} to classify various types of data such as \textbf{Traffic signs recogninition, Crack detection, Smile detection, Hand sign recogninition} using \textbf{PyTorch} and \textbf{Keras Sequential API}
+%     \item Successfully implemented \textbf{transfer learning} to train a \textbf{pretrained MobileNetV2} to classify images of \textbf{alpacas}
+%     \item Implemented \textbf{ResNet50's architecture} from scratch using \textbf{Keras API} and trained it on a hand sign dataset
+% \end{itemize}
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Deep Learning}\hfill{\sl \small (Summer 2023)}\\
+% {\it Self Project}
+% \\\vspace{-17pt}
+% \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+%     \item Implemented and trained \textbf{Google's Deeppose}, a deep learning model for \textbf{human pose estimation} on LSP dataset
+%     \item Implemented a \textbf{Cycle-GAN} architecture for image-to-image translation, enabling conversion between two classes 
+%     \item Trained an agent to play \textbf{lunar lander} game using \textbf{Deep Q-Network (DQN)}, a reinforcement learning algorithm
+%     \item Implemented \textbf{neural style art transfer} using \textbf{VGG19} to combine the content of one image with the style of another
+%     \item Implemented the \textbf{U-Net} architecture and applied it to CARLA, a self-driving car dataset for \textbf{semantic segmentation}
+%     \item Implemented \textbf{ResNets} from scratch and utilized \textbf{transfer learning} for image classification and recognition tasks
+% \end{itemize}
+
+
+% \vspace{-20pt}
+% \noindent\section*{\color{mycolor}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
+% \vspace{-12pt}
+% \noindent\begin{tabular}{p{4.5cm} p{12.8cm}}
+%     \textbf{Programming Languages:}                        & C++, Python, MATLAB, Java, Bash, Solidity, Sed, AWK   \vspace{1pt}                                          \\
+%     \hline
+%     \vspace{1pt} \vspace{-8pt} \textbf{Software \& Tools:} & \vspace{1pt} \vspace{-8pt} Tensorflow, Pytorch, Keras, Scikit-learn, OpenCV, Seaborn, Git, \LaTeX{}, MySQL, \\ & NumPy, Pandas, Matplotlib, Doxygen, Sphinx \vspace{1pt} \\
+%     \hline
+%     \vspace{1pt} \vspace{-8pt} \textbf{Web Development:}   & \vspace{1pt} \vspace{-8pt} HTML, CSS, JavaScript, BootStrap                                                 \\
+    %\textbf{Software} & Git, \LaTeX, AutoCAD
+    %\textbf{Web Development} & Django, HTML, CSS, JavaScript, PHP, Bootstrap, Jquery, Android Studio  \\
+    %   \textbf{Extra Courses} & Probability theory, Advance Network Security and Cryptography, Derivative Pricing
+% \end{tabular}
+
 % \vspace{\baselineskip}
 % \vspace{-15pt}
 % \noindent\textbf{\large Generating Representative Images from a Sample} \hfill{\sl \small Autumn 2022}\\
@@ -117,29 +223,3 @@
 %     \item Developed a video game using the \textbf{simplecpp graphics library} and object oriented programming in \textbf{C++} with a
 %           physics simulation to model the motion of bubbles along with features such as timers, health bars, levels and scores
 % \end{itemize}
-
-\vspace{-20pt}
-\noindent\section*{\color{black!20!blue}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
-\vspace{-12pt}
-\noindent\begin{tabular}{p{4.5cm} p{12.8cm}}
-    \textbf{Programming Languages:}                        & C++, Python, MATLAB, Java, Bash, Solidity, Sed, AWK   \vspace{1pt}                                          \\
-    \hline
-    \vspace{1pt} \vspace{-8pt} \textbf{Software \& Tools:} & \vspace{1pt} \vspace{-8pt} Tensorflow, Pytorch, Keras, Scikit-learn, OpenCV, Seaborn, Git, \LaTeX{}, MySQL, \\ & NumPy, Pandas, Matplotlib, Doxygen, Sphinx \vspace{1pt} \\
-    \hline
-    \vspace{1pt} \vspace{-8pt} \textbf{Web Development:}   & \vspace{1pt} \vspace{-8pt} HTML, CSS, JavaScript, BootStrap                                                 \\
-    %\textbf{Software} & Git, \LaTeX, AutoCAD
-    %\textbf{Web Development} & Django, HTML, CSS, JavaScript, PHP, Bootstrap, Jquery, Android Studio  \\
-    %   \textbf{Extra Courses} & Probability theory, Advance Network Security and Cryptography, Derivative Pricing
-\end{tabular}
-\vspace{-17pt}
-\noindent\section*{\color{black!20!blue}\LARGE Extracurricular\xfilll[0pt]{0.5pt}}
-\vspace{-12pt}
-\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Successfully completed one year under \textbf{National Sports Organization(NSO)} in \textbf{Chess} at IIT Bombay\hfill{\sl \small (2022)}
-    \item Pitched a \textbf{Business Model Canvas} for a startup in the health sector which entailed making online ambulance
-          bookings, for the EnB Buzz competition conducted by the \textbf{Entrepreneurship cell of IIT Bombay}\hfill{\sl \small (2021)}
-    \item Participated in a team of 3 and wrote a working script and successful submission in \textbf{Google Hashcode 2021}\hfill{\sl \small (2021)}
-    \item Worked as team of 4 to make a remote controlled bot using ESP32 for XLR8 - an event of \textbf{ERC, IITB}\hfill{\sl \small (2022)}
-
-\end{itemize}
-\end{document}

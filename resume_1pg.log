@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  18 JUL 2023 23:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  19 JUL 2023 00:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,24 +320,24 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 ) (./resume_1pg.aux)
 \openout1 = `resume_1pg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -360,7 +360,7 @@ LaTeX Font Info:    ... okay on input line 22.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
+* \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -392,54 +392,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 22.
-Package microtype Info: Applying patch `item' on input line 22.
-Package microtype Info: Applying patch `toc' on input line 22.
-Package microtype Info: Applying patch `eqnum' on input line 22.
-Package microtype Info: Applying patch `footnote' on input line 22.
-Package microtype Info: Applying patch `verbatim' on input line 22.
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Applying patch `item' on input line 24.
+Package microtype Info: Applying patch `toc' on input line 24.
+Package microtype Info: Applying patch `eqnum' on input line 24.
+Package microtype Info: Applying patch `footnote' on input line 24.
+Package microtype Info: Applying patch `verbatim' on input line 24.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 22.
+LaTeX Info: Redefining \showhyphens on input line 24.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 24.
  (./resume_1pg.out) (./resume_1pg.out)
 \@outlinefile=\write3
 \openout3 = `resume_1pg.out'.
 
+ [1
 
-Overfull \hbox (1.24077pt too wide) in paragraph at lines 124--135
-[]  
- []
-
-[1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resume_1pg.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.129 \end{document}
+                     [2] (./resume_1pg.aux)
 Package rerunfilecheck Info: File `resume_1pg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12819 strings out of 476047
- 202003 string characters out of 5790253
- 1881248 words of memory out of 5000000
+ 12845 strings out of 476047
+ 202201 string characters out of 5790253
+ 1880248 words of memory out of 5000000
  33045 multiletter control sequences out of 15000+600000
- 517500 words of font info for 75 fonts, out of 8000000 for 9000
+ 518173 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1036b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume_1pg.pdf (1 page, 130405 bytes).
+Output written on resume_1pg.pdf (2 pages, 137125 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  22529 words of extra memory for PDF output out of 24883 (max. 10000000)
 
