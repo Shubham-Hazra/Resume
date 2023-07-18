@@ -26,7 +26,7 @@
 
 \vspace*{35 mm}
 \noindent Pursuing a \textbf{Minor} degree in \textbf{ Artificial Intelligence} and \textbf{Data Science} from \textbf{C-MInDS, IIT Bombay}
-\vspace{-15pt}
+\vspace{-17pt}
 \noindent\section*{{\color{mycolor}\LARGE Scholastic Achievements}\xfilll[0pt]{0.5pt}}
 \vspace{-12pt}
 
@@ -42,15 +42,14 @@
 
 \vspace{-20pt}
 \noindent\section*{{\color{mycolor}\LARGE Work Experience\xfilll[0pt]{0.5pt}}}
-\vspace{-10pt}
+\vspace{-13pt}
 \noindent\textbf{\large Applied AI Researcher at Brance Technologies}\hfill{\sl \small (Summer 2023)}\\
-\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Developed and implemented performant chatbot systems using \textbf{vector embeddings} for data retrieval and \textbf{Large Language Models} for question-answering, resulting in significantly improved user experience and engagement
-    \item Utilized \textbf{Haystack} framework and \textbf{FAISS} to efficiently index and store proprietary data, leveraging \textbf{vectorDBs} to store the embeddings. Utilized \textbf{Hugging Face models} to form the entire \textbf{indexing and retrieval pipeline} 
-    \item Included \textbf{document reranking} resulting in improved relevance and accuracy of the retrieved information for chatbot 
-    \item Implemented \textbf{Locality-Sensitive Hashing (LSH)} to create a highly \textbf{performant caching system} to cache user queries that utilizes \textbf{semantic search}, optimizing the speed, accuracy, and efficiency of data retrieval for chatbot
-    \item Leveraged \textbf{Nginx} and \textbf{FastAPI} on an \textbf{AWS EC2} instance to ensure seamless communication, and reduced latency for the chatbot system. Utilized \textbf{async calls} and FastAPI's scalability for smooth data retrieval and processing
+\vspace{-17pt}
+\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+    \item Developed high-performance chatbot systems using \textbf{vector embeddings }and \textbf{Large Language Models (LLMs)}
+    \item Utilized \textbf{Haystack, FAISS, vectorDBs}, and \textbf{Hugging Face models} for indexing, retrieval and ranking of data
+    \item Employed \textbf{Locality-Sensitive Hashing (LSH)} for caching queries with \textbf{semantic search}, optimizing data retrieval 
+    \item Leveraged \textbf{Nginx, FastAPI} and \textbf{async calls}, on an \textbf{AWS EC2} for seamless communication and reduced latency
 \end{itemize}
 
 \vspace{-20pt}
@@ -59,14 +58,12 @@
 \vspace{-10pt}
 \noindent\textbf{\large Stable Diffusion from Scratch}\hfill{\sl \small (Summer 2023)}\\
 {\it Self Project}
-\\\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{PyTorch} to independently develop and implement \textbf{each component} of a Stable Diffusion model on smaller datasets before using the Hugging Face's \textbf{diffuser library} to implement the final diffusion model on a larger dataset
-    \item Implemented a \textbf{Variational Autoencoder (VAE)} and trained it on the Fashion MNIST dataset using \textbf{reconstruction loss} and \textbf{KL-Divergence loss}, enabling accurate reconstruction of inputs and latent space interpolation
-    \item Implemented a \textbf{Diffusion U-Net} with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM} (Denoising Diffusion Probabilistic Models) on MNIST and CIFAR-10 datasets 
-    \item Used various scheduling techniques like \textbf{DDIM}, \textbf{LMSDiscrete} and \textbf{PNDM} etc. to improve speed of the generations
-    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a \textbf{DDPM} on these latents using the LSUN churches datasets to generate high-quality images
-    \item Used various metrics like \textbf{FID} (Fréchet Inception Distance) scores to evaluate the quality of the generated images
+\\\vspace{-17pt}
+\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+    \item Developed and implemented each component of a \textbf{Stable Diffusion} model using \textbf{PyTorch}, including a Variational Autoencoder (VAE), \textbf{Diffusion U-Net} with timestep embeddings and self-attention, and various scheduling techniques
+    \item Trained the \textbf{VAE} on the Fashion MNIST dataset using reconstruction loss and \textbf{KL-Divergence loss}. Implemented both unconditional and conditional \textbf{Denoising Diffusion Probabilistic Models (DDPM)} on CIFAR-10 dataset
+    \item Implemented \textbf{latent diffusion} by encoding images to latent representations using the \textbf{Hugging Face diffuser's }VAE Trained a DDPM on these latents using the LSUN churches and bedrooms dataset to generate high-quality images
+    % \item Compared the quality of the generations to the original using metrics like \textbf{Fréchet Inception Distance (FID)} scores
 \end{itemize}
 
 \vspace{\baselineskip}
@@ -74,7 +71,7 @@
 \noindent\textbf{\large Discrete Event Simulator for Bitcoin Network}\hfill{\sl \small (Spring 2023)}\\
 {\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
 \vspace{-17pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+\begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
     \item Implemented a discrete event simulator for the Bitcoin Network and \textbf{analyzed the forking} and length of the main chain. Additionally, simulated \textbf{selfish mining} and \textbf{stubborn mining} attacks on the network by an adversary node 
     \item Analyzed the \textbf{adversary's relative profitability} under various factors like hashing power and network latency etc.
     \item Utilized the \textbf{Networkx library} to create a connected \textbf{P2P network} and generated visual representations of the blockchain. Used the \textbf{SimPy library} to maintain a \textbf{global clock} and simulate the \textbf{mining and transaction events}
@@ -82,30 +79,31 @@
 
 \vspace{\baselineskip}
 \vspace{-15pt}
-\noindent\textbf{\large FastChat} \hfill{\sl \small Autumn 2022}\\
-{\it Guide: Prof. Kavi Arya} $|$ {\it Ongoing Course Project : Software Systems Lab } \hfill{\it IIT Bombay}\\
-\vspace{-17pt}
+\noindent\textbf{\large KYC-Website}\hfill{\sl \small (Summer 2023)}\\
+{\it Self Project}
+\\\vspace{-17pt}
 \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Developing a messaging software with \textbf{end-to-end encryption} by using \textbf{RSA+AES} to encode the messages and both \textbf{group chat} and \textbf{individual chat} support using \textbf{python socket library} and \textbf{PostgreSQL} database
-    \item Implementing a \textbf{load balancer} with \textbf{least connect strategy} using \textbf{bash} to distribute load among multiple servers. Focusing on obtaining \textbf{high throughput} while using only \textbf{limited resources} dedicated for the servers
-    \item Used \textbf{bash} scripts to simulate common messaging patterns and calculate \textbf{throughput} and \textbf{latency} of the system
+    \item Developed a secure web application using \textbf{Node.js, Express.js}, and \textbf{MongoDB} for KYC verification. Integrated \textbf{easy-ocr} library for \textbf{ID information extraction} and \textbf{face-recognition library} for \textbf{real-time face matching}
+    \item Implemented \textbf{full-stack development} with \textbf{Bootstrap, EJS, and Passport.js} for a web application with secure authentication. Utilized \textbf{FastAPI} to wrap ML components, ensuring seamless communication with ML API servers.
 \end{itemize}
-
 
 \vspace{\baselineskip}
 \vspace{-15pt}
-\noindent\textbf{\large Rail Planner}\hfill{\sl \small Autumn 2022}\\
-{\it Guide: Prof. Supratik Chakraborty} $|$ {\it Course Project : Data Structures and Algorithms Lab} \hfill{\it IIT Bombay}
+\noindent\textbf{\large Deep Learning}\hfill{\sl \small (Summer 2023)}\\
+{\it Self Project}
 \\\vspace{-17pt}
 \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
-    \item Developing a railway planner using algorithms such as \textbf{Merge Sort, KMP, Quicksort}, etc.
-    \item Utilising Data Structures such as \textbf{linked lists, Binary Search Trees, AVL Trees, Hash tables, Tries}, etc.
+    \item Implemented and trained \textbf{Google's Deeppose}, a deep learning model for \textbf{human pose estimation} on LSP dataset
+    \item Implemented a \textbf{Cycle-GAN} architecture for image-to-image translation, enabling conversion between two classes 
+    \item Trained an agent to play \textbf{lunar lander} game using \textbf{Deep Q-Network (DQN)}, a reinforcement learning algorithm
+    \item Implemented \textbf{neural style art transfer} using \textbf{VGG19} to combine the content of one image with the style of another
+    \item Implemented the \textbf{U-Net} architecture and applied it to CARLA, a self-driving car dataset for \textbf{semantic segmentation}
+    \item Implemented \textbf{ResNets} from scratch and utilized \textbf{transfer learning} for image classification and recognition tasks
 \end{itemize}
-
 
 \vspace{-20pt}
 \noindent\section*{\color{mycolor}\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
-\vspace{-12pt}
+\vspace{-14pt}
 \noindent\begin{tabular}{p{4.5cm} p{12.8cm}}
     \textbf{Programming}                        & C/C++, Python, Bash, Solidity, Java, JavaScript, VHDL, Sed, Awk                                    \\
     \vspace{-7pt} \textbf{Data Science} & \vspace{-7pt} Tensorflow, Pytorch, Keras, Trax, Scikit-learn, OpenCV, NumPy, Pandas, Matplotlib  \\
@@ -128,6 +126,27 @@
 \end{itemize}
 \end{document}
 
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large FastChat} \hfill{\sl \small Autumn 2022}\\
+% {\it Guide: Prof. Kavi Arya} $|$ {\it Ongoing Course Project : Software Systems Lab } \hfill{\it IIT Bombay}\\
+% \vspace{-17pt}
+% \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+%     \item Developing a messaging software with \textbf{end-to-end encryption} by using \textbf{RSA+AES} to encode the messages and both \textbf{group chat} and \textbf{individual chat} support using \textbf{python socket library} and \textbf{PostgreSQL} database
+%     \item Implementing a \textbf{load balancer} with \textbf{least connect strategy} using \textbf{bash} to distribute load among multiple servers
+% \end{itemize}
+
+
+
+% \vspace{\baselineskip}
+% \vspace{-15pt}
+% \noindent\textbf{\large Rail Planner}\hfill{\sl \small Autumn 2022}\\
+% {\it Guide: Prof. Supratik Chakraborty} $|$ {\it Course Project : Data Structures and Algorithms Lab} \hfill{\it IIT Bombay}
+% \\\vspace{-17pt}
+% \begin{itemize}[itemsep = -1.4 mm, leftmargin=*]
+%     \item Developing a railway planner using algorithms such as \textbf{Merge Sort, KMP, Quicksort}, etc.
+%     \item Utilising Data Structures such as \textbf{linked lists, Binary Search Trees, AVL Trees, Hash tables, Tries}, etc.
+% \end{itemize}
 
 
 % \vspace{\baselineskip}
@@ -165,19 +184,6 @@
 %     \item Implemented \textbf{ResNet50's architecture} from scratch using \textbf{Keras API} and trained it on a hand sign dataset
 % \end{itemize}
 
-% \vspace{\baselineskip}
-% \vspace{-15pt}
-% \noindent\textbf{\large Deep Learning}\hfill{\sl \small (Summer 2023)}\\
-% {\it Self Project}
-% \\\vspace{-17pt}
-% \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-%     \item Implemented and trained \textbf{Google's Deeppose}, a deep learning model for \textbf{human pose estimation} on LSP dataset
-%     \item Implemented a \textbf{Cycle-GAN} architecture for image-to-image translation, enabling conversion between two classes 
-%     \item Trained an agent to play \textbf{lunar lander} game using \textbf{Deep Q-Network (DQN)}, a reinforcement learning algorithm
-%     \item Implemented \textbf{neural style art transfer} using \textbf{VGG19} to combine the content of one image with the style of another
-%     \item Implemented the \textbf{U-Net} architecture and applied it to CARLA, a self-driving car dataset for \textbf{semantic segmentation}
-%     \item Implemented \textbf{ResNets} from scratch and utilized \textbf{transfer learning} for image classification and recognition tasks
-% \end{itemize}
 
 
 % \vspace{-20pt}
