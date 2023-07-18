@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  18 JUL 2023 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.10)  18 JUL 2023 23:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,7 @@ Package hyperref Info: Link coloring OFF on input line 24.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (1.24059pt too wide) in paragraph at lines 187--198
+Overfull \hbox (1.24059pt too wide) in paragraph at lines 176--187
 []  
  []
 
@@ -460,7 +460,7 @@ Overfull \hbox (1.24059pt too wide) in paragraph at lines 187--198
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.216 \end{document}
+l.205 \end{document}
                      [2
 
 ] (./resume_2pg.aux)
