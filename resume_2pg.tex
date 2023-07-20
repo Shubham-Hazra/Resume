@@ -49,14 +49,14 @@
 \vspace{-20pt}
 \noindent\section*{\color{mycolor}\LARGE Key Projects\xfilll[0pt]{0.5pt}}
 \vspace{-10pt}
-\noindent\textbf{\large Stable Diffusion from Scratch}\hfill{\sl \small (Summer 2023)}\\
+\noindent\textbf{\large Latent Diffusion for Image Generation}\hfill{\sl \small (Summer 2023)}\\
 {\it Self Project}
 \\\vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Used \textbf{PyTorch} to implement a \textbf{Stable Diffusion} model and evaluate the quality of its generations using \textbf{FID scores}
+    \item Used \textbf{PyTorch} to implement a \textbf{Latent Diffusion} model and evaluate the quality of its generations using \textbf{FID scores}
     \item Implemented a \textbf{Variational Autoencoder (VAE)} and trained it on the Fashion MNIST dataset using \textbf{reconstruction loss} and \textbf{KL-Divergence loss}, enabling accurate reconstruction of inputs and latent space interpolation
-    \item Implemented a \textbf{Diffusion U-Net} with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM} (Denoising Diffusion Probabilistic Models) on MNIST and CIFAR-10 datasets 
-    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a \textbf{DDPM} on these latents using the LSUN churches datasets to generate high-quality images
+    \item Implemented a \textbf{Diffusion U-Net} with \textbf{timestep embeddings} and \textbf{self-attention} and used it to implement both unconditional and conditional \textbf{DDPM (Denoising Diffusion Probabilistic Models)} on the CIFAR-10 dataset 
+    \item Implemented \textbf{latent diffusion} by utilizing the diffuser's VAE to \textbf{encode images} to latent representations, and subsequently trained a DDPM on these latents using the LSUN churches datasets to generate high-quality images
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-15pt}
@@ -67,15 +67,6 @@
     \item Implemented a discrete event simulator for the Bitcoin Network and \textbf{analyzed the forking} and length of the main chain. Additionally, simulated \textbf{selfish mining} and \textbf{stubborn mining} attacks on the network by an adversary node 
     \item Analyzed the \textbf{adversary's relative profitability} under various factors like hashing power and network latency etc.
     \item Utilized the \textbf{Networkx library} to create a connected \textbf{P2P network} and generated visual representations of the blockchain. Used the \textbf{SimPy library} to maintain a \textbf{global clock} and simulate the \textbf{mining and transaction events}
-\end{itemize}
-\vspace{\baselineskip}
-\vspace{-15pt}
-\noindent\textbf{\large Layer 2 DAPP for Lightning Network Simulation}\hfill{\sl \small (Spring 2023)}\\
-{\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
-\vspace{-15pt}
-\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Developed a Layer 2 DAPP on the \textbf{Ethereum blockchain}, utilizing \textbf{Ganache and Truffle} to set up a local Ethereum node. Implemented the smart contract in \textbf{Solidity}, enabling the execution of transactions within the Layer 2 DAPP
-    \item Developed a simulation model of \textbf{Lightning Networks}, a Layer 2 scaling solution for the Ethereum blockchain
 \end{itemize}
 
 \vspace{\baselineskip}
@@ -90,6 +81,17 @@
     epsilon, gamma, number of timesteps to achieve the best results and solved the environment \textbf{within 500 episodes}
 \end{itemize}
 
+\vspace{\baselineskip}
+\vspace{-15pt}
+\noindent\textbf{\large FastChat} \hfill{\sl \small (Autumn 2022)}\\
+{\it Guide: Prof. Kavi Arya} $|$ {\it Course Project : Software Systems Lab } \hfill{\it IIT Bombay}\\
+\vspace{-15pt}
+\begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
+    \item Developing a messaging software with \textbf{end-to-end encryption} by using \textbf{RSA+AES} to encode the messages and both group chat and individual chat support using \textbf{python socket library, threading} and \textbf{PostgreSQL} database
+    \item Implementing a \textbf{load balancer} with \textbf{least connect strategy} using \textbf{bash} to distribute load among multiple servers and also used scripts to simulate common messaging patterns and calculate \textbf{throughput} and \textbf{latency} of the system
+\end{itemize}
+
+
 \pagebreak
 \newgeometry{bottom = 6.4 mm,left = 14.11 mm,right = 14.11 mm,top = 6.4 mm}
 \vspace{\baselineskip}
@@ -102,15 +104,17 @@
     \item Learned about \textbf{full-stack development} and utilized \textbf{Bootstrap, EJS, Passport.js} to create a responsive web application with secure authentication, form validation and user sessions. Used \textbf{FastAPI} to make the backend API
     \item Utilized the \textbf{easy-ocr library} for \textbf{ID information extraction} and the \textbf{face-recognition library} for \textbf{real-time face matching} to automate the KYC verification process, ensuring swift verification without human intervention
 \end{itemize}
+
 \vspace{\baselineskip}
 \vspace{-15pt}
-\noindent\textbf{\large FastChat} \hfill{\sl \small (Autumn 2022)}\\
-{\it Guide: Prof. Kavi Arya} $|$ {\it Course Project : Software Systems Lab } \hfill{\it IIT Bombay}\\
+\noindent\textbf{\large Layer 2 DAPP for Lightning Network Simulation}\hfill{\sl \small (Spring 2023)}\\
+{\it Guide: Prof. Vinay J. Ribeiro} $|$ {\it Course Project : Introduction to Blockchains and Smart Contracts } \hfill{\it IIT Bombay}\\
 \vspace{-15pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
-    \item Developing a messaging software with \textbf{end-to-end encryption} by using \textbf{RSA+AES} to encode the messages and both group chat and individual chat support using \textbf{python socket library, threading} and \textbf{PostgreSQL} database
-    \item Implementing a \textbf{load balancer} with \textbf{least connect strategy} using \textbf{bash} to distribute load among multiple servers and also used scripts to simulate common messaging patterns and calculate \textbf{throughput} and \textbf{latency} of the system
+    \item Developed a Layer 2 DAPP on the \textbf{Ethereum blockchain}, utilizing \textbf{Ganache and Truffle} to set up a local Ethereum node. Implemented the smart contract in \textbf{Solidity}, enabling the execution of transactions within the Layer 2 DAPP
+    \item Developed a simulation model of \textbf{Lightning Networks}, a Layer 2 scaling solution for the Ethereum blockchain
 \end{itemize}
+
 
 \vspace{-20pt}
 \noindent\section*{\color{mycolor}\LARGE Other Projects\xfilll[0pt]{0.5pt}}
@@ -158,7 +162,7 @@
 \end{itemize}
 \vspace{\baselineskip}
 \vspace{-13pt}
-\noindent\textbf{\large SwarComm} \hfill{\sl \small (Spring 2023)}\\
+\noindent\textbf{\large SwarComm - A Link Layer Simulation} \hfill{\sl \small (Spring 2023)}\\
 {\it Guide: Prof. Bhaskaran Raman} $|$ {\it Course Project : Computer Networks Lab} \hfill{\it IIT Bombay}
 \vspace{-2pt}
 \begin{itemize}[itemsep = -0.65 mm, leftmargin=*]
